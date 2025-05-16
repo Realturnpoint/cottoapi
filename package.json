@@ -1,0 +1,15 @@
+{
+  "name": "cargooffice-backend",
+  "version": "1.0.0",
+  "description": "API voor zendingen per maand vanuit CargoOffice",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "csv-parse": "^5.5.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  }
+}
